@@ -11,12 +11,12 @@ Layer0
 	//---- Ambient Occlusion ----
 	g_flAmbientOcclusionDirectDiffuse "0.000"
 	g_flAmbientOcclusionDirectSpecular "0.000"
-	TextureAmbientOcclusion "models/survivez/weapons/IA2/src/Magazine_ambient_occlusion.png"
+	TextureAmbientOcclusion "content/models/survivez/weapons/ia2/src/magazine_ambient_occlusion.png"
 
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "models/survivez/weapons/IA2/src/Rifle_Mag_Magazine_BaseColor.png"
+	TextureColor "content/models/survivez/weapons/ia2/src/rifle_mag_magazine_basecolor.png"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -29,13 +29,13 @@ Layer0
 	g_flDirectionalLightmapStrength "1.000"
 
 	//---- Metalness ----
-	TextureMetalness "models/survivez/weapons/IA2/src/Rifle_Mag_Magazine_Metallic.png"
+	TextureMetalness "content/models/survivez/weapons/ia2/src/rifle_mag_magazine_metallic.png"
 
 	//---- Normal ----
-	TextureNormal "models/survivez/weapons/IA2/src/Rifle_Mag_Magazine_Normal.png"
+	TextureNormal "content/models/survivez/weapons/ia2/src/rifle_mag_magazine_normal.png"
 
 	//---- Roughness ----
-	TextureRoughness "models/survivez/weapons/IA2/src/Rifle_Mag_Magazine_Roughness.png"
+	TextureRoughness "content/models/survivez/weapons/ia2/src/rifle_mag_magazine_roughness.png"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"

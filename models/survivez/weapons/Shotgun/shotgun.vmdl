@@ -11,7 +11,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/survivez/weapons/Shotgun/src/PBR - Metallic Roughness_Shotty.fbx"
+						filename = "Content/models/survivez/weapons/Shotgun/src/PBR - Metallic Roughness_Shotty.fbx"
 						import_translation = [ 0.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, 90.0, 0.0 ]
 						import_scale = 0.02
@@ -60,7 +60,7 @@
 						[
 							{
 								from = ""
-								to = "models/survivez/weapons/shotgun/shotgun_base.vmat"
+								to = "content/models/survivez/weapons/shotgun/shotgun_base.vmat"
 							},
 						]
 						use_global_default = false

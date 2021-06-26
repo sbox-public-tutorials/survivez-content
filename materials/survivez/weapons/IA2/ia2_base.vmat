@@ -16,7 +16,7 @@ Layer0
 	//---- Color ----
 	g_flModelTintAmount "1.000"
 	g_vColorTint "[1.000000 1.000000 1.000000 0.000000]"
-	TextureColor "models/survivez/weapons/IA2/src/Rifle_IA2_IA2_BaseColor.png"
+	TextureColor "content/models/survivez/weapons/ia2/src/rifle_ia2_ia2_basecolor.png"
 
 	//---- Fade ----
 	g_flFadeExponent "1.000"
@@ -29,13 +29,13 @@ Layer0
 	g_flDirectionalLightmapStrength "1.000"
 
 	//---- Metalness ----
-	TextureMetalness "models/survivez/weapons/IA2/src/Rifle_IA2_IA2_Metallic.png"
+	TextureMetalness "content/models/survivez/weapons/ia2/src/rifle_ia2_ia2_metallic.png"
 
 	//---- Normal ----
-	TextureNormal "models/survivez/weapons/IA2/src/Rifle_IA2_IA2_Normal.png"
+	TextureNormal "content/models/survivez/weapons/ia2/src/rifle_ia2_ia2_normal.png"
 
 	//---- Roughness ----
-	TextureRoughness "models/survivez/weapons/IA2/src/Rifle_IA2_IA2_Roughness.png"
+	TextureRoughness "content/models/survivez/weapons/ia2/src/rifle_ia2_ia2_roughness.png"
 
 	//---- Texture Coordinates ----
 	g_nScaleTexCoordUByModelScaleAxis "0"

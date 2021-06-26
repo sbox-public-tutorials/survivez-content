@@ -38,11 +38,11 @@
 						[
 							{
 								from = "magazine.vmat"
-								to = "materials/survivez/weapons/ia2/ia2_mag.vmat"
+								to = "content/materials/survivez/weapons/ia2/ia2_mag.vmat"
 							},
 							{
 								from = "rifle.vmat"
-								to = "materials/survivez/weapons/ia2/ia2_base.vmat"
+								to = "content/materials/survivez/weapons/ia2/ia2_base.vmat"
 							},
 						]
 						use_global_default = false
@@ -86,7 +86,7 @@
 				[
 					{
 						_class = "RenderMeshFile"
-						filename = "models/survivez/weapons/IA2/src/IA2.fbx"
+						filename = "Content/models/survivez/weapons/IA2/src/IA2.fbx"
 						import_translation = [ 22.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, -90.0, 0.0 ]
 						import_scale = 0.3
@@ -102,7 +102,7 @@
 					},
 					{
 						_class = "RenderMeshFile"
-						filename = "models/survivez/weapons/IA2/src/Rifle_Mag.fbx"
+						filename = "Content/models/survivez/weapons/IA2/src/Rifle_Mag.fbx"
 						import_translation = [ 22.0, 0.0, 0.0 ]
 						import_rotation = [ 0.0, -90.0, 0.0 ]
 						import_scale = 0.3
