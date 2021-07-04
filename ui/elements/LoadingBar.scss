@@ -1,0 +1,8 @@
+.loading-bar {
+    height: 80;
+    width: 100%;
+    background-color: $primaryColor;
+    .loading-bar-inner {
+        background-color: red;
+    }
+}
