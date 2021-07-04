@@ -1,0 +1,50 @@
+﻿@import "../util/variables.scss";
+@import "../util/variables.scss";
+
+RoundPanel {
+    position: absolute;
+    display: flex;
+    width: 300;
+    top: 10;
+    left: 10;
+    align-items: flex-start;
+    flex-direction: column;
+
+
+
+    PhasePanel {
+        
+        color: white;    
+        align-items: flex-start;
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        label {
+            display: flex;
+            font-size: 32;
+            padding: $spacer * 12;
+        }
+
+        .round-label {
+            font-size: 16;
+            font-style: italic;
+        }
+        
+        .loading-bar-container {
+            padding-top: $spacer;
+            padding-bottom: $spacer;
+            padding-left: $spacer /2;
+            padding-right: $spacer /2;
+
+            display: flex;
+            height: 30;
+            width: 100%;
+            background-color: rgba(0,0,0,0.5);
+            .loading-bar-inner {
+                background-color: $primaryColor;
+            }
+        }
+    }    
+}
