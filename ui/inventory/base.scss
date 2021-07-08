@@ -1,31 +1,41 @@
 @import "../util/variables.scss";
 
 $baseWidth: 100;
-$baseHeight: 100;
+$baseHeight: 50;
+$activeHeight: 100;
+$activeWidth: 150;
+
 .inventory-hand-container {
     position: absolute;
     align-items: center;
     display: flex;
-    right:0;
     bottom: 0;
-    padding: 50;
-    .inventory-item {    
-        display: block;
+    right: 50;
+    bottom: 50;
+    .inventory-item {   
+        border-radius: $primaryRadius; 
+        margin: 2;
+        display: flex;
         flex-direction: column;
         background-color: rgba(0,0,0,0.8);   
         &.active {
-            background-color: $primaryColor;
-            width: $baseWidth * 5;
-            height: $baseHeight * 1.5;
+            width: $activeWidth;
+            height: $activeHeight;
         }  
 
         .slot-number-panel {
-            height: 10px;
-            background-color: green;
+            flex-grow: 1;
+            max-height: 30;
+            padding-top: 5;
+            padding-left: 5;
+            color: grey;
         }
 
         .item-name-panel {
-            height: red;
+            min-width: 100%;
+            padding: 2;
+            color: white;
+            text-align: center;
         }
 
     }
